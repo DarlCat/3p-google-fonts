@@ -1,0 +1,25 @@
+# Unicode blocks to include in the Noto Sans Symbols 2 subset shipped with the viewer.
+#
+# Format (one range per line):
+#   NAME  START  END
+#
+# NAME  - free-form label (underscores or spaces ok)
+# START - inclusive hex code point (with or without 0x / U+ prefix)
+# END   - inclusive hex code point
+#
+# Lines starting with # and blank lines are ignored.
+#
+# After editing this file, regenerate the subset:
+#   python3 Noto_Sans_Symbols_2/subset_symbols.py
+#
+# Or just rebuild the package (build-cmd.sh regenerates when fontTools is available).
+
+# Geometric Shapes Extended - triangles, circles, crosses, stars, color shapes, etc.
+Geometric_Shapes_Extended  1F780  1F7FF
+
+# Supplemental Arrows-C - arrow variants used in UI / text
+Supplemental_Arrows_C      1F800  1F8FF
+
+# Window control symbols (Misc. Symbols and Pictographs) - 🗔 desktop window,
+# 🗕 minimize, 🗖 maximize, 🗗 overlap, 🗘, 🗙 cancellation X, 🗚/🗛 font size
+Window_Control_Symbols     1F5D4  1F5DB
