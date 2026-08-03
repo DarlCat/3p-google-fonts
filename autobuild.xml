@@ -6,9 +6,9 @@
       <key>canonical_repo</key>
       <string>https://github.com/secondlife/3p-google-fonts</string>
       <key>copyright</key>
-      <string>Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)</string>
+      <string>Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter); Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)</string>
       <key>description</key>
-      <string>Google fonts</string>
+      <string>Google Inter and Noto Sans Symbols 2 fonts for viewer use</string>
       <key>license</key>
       <string>SIL Open Font License, Version 1.1</string>
       <key>license_file</key>
@@ -44,6 +44,7 @@
           <array>
             <string>fonts/*.ttf</string>
             <string>LICENSES/google_inter.txt</string>
+            <string>LICENSES/google_noto_sans_symbols_2.txt</string>
           </array>
           <key>name</key>
           <string>common</string>
