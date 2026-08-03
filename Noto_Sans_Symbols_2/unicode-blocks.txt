@@ -23,3 +23,9 @@ Supplemental_Arrows_C      1F800  1F8FF
 # Window control symbols (Misc. Symbols and Pictographs) - 🗔 desktop window,
 # 🗕 minimize, 🗖 maximize, 🗗 overlap, 🗘, 🗙 cancellation X, 🗚/🗛 font size
 Window_Control_Symbols     1F5D4  1F5DB
+
+# Transport and Map Symbols - 🛆 triangle, 🛇 prohibited, 🛈 info
+Prohibited_And_Info_Signs  1F6C6  1F6C8
+
+# Miscellaneous Symbols and Arrows - centred medium triangles ⯅ ⯆ ⯇ ⯈
+Centred_Medium_Triangles   2BC5  2BC8
