@@ -8,6 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install fonttools
+        run: python3 -m pip install fonttools
       - uses: secondlife/action-autobuild@v5
         with:
           platform: common
