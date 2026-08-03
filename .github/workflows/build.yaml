@@ -8,11 +8,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # This repo owns its own Python environment so fonttools makes it to our interpreter.
+      # If we don't have this package, the symbols font subset cannot be generated at build time.
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
       - name: Install fonttools
         run: python3 -m pip install fonttools
       - uses: secondlife/action-autobuild@v5
         with:
           platform: common
+          setup-python: false
   release:
     needs: build
     runs-on: [ubuntu-latest]
